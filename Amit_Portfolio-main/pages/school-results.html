@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" class="result-html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Results — Amit Shah</title>
+    <meta name="description"
+        content="School academic results — Amit Shah. Class 10th (SSC) and HSC marks and percentages.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700&family=Oswald:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/components.js"></script>
+</head>
+
+<body class="result-page-body" data-page="school-results" data-root="../">
+    <div id="global-skeleton-loader">
+        <div class="skel-nav">
+            <div class="skel-brand"></div>
+            <div class="skel-menu">
+                <div class="skel-menu-item"></div>
+                <div class="skel-menu-item"></div>
+                <div class="skel-menu-item"></div>
+            </div>
+        </div>
+        <div class="skel-content">
+            <div class="skel-title"></div>
+            <div class="skel-subtitle"></div>
+            <div class="skel-title" style="width: 80%; height: 200px; border-radius: 20px;"></div>
+        </div>
+    </div>
+
+    <!-- ── Animated Orb Background ──────────────────────────── -->
+    <div class="res-orbs">
+        <div class="res-orb res-orb-1"></div>
+        <div class="res-orb res-orb-2"></div>
+        <div class="res-orb res-orb-3"></div>
+    </div>
+
+    <!-- ── Sticky Navigation ─────────────────────────────────── -->
+    <div id="site-nav"></div>
+
+    <!-- ── Main Content ──────────────────────────────────────── -->
+    <div class="res-wrap">
+
+        <!-- Header Panel -->
+        <div class="res-panel">
+            <div class="res-panel-bg">
+                <img src="../assets/images/backgrounds/school_bg.png" alt="School Background" loading="lazy">
+                <div class="res-panel-overlay"></div>
+            </div>
+            <div class="res-panel-content">
+                <div class="res-uni-badge">
+                    <span class="res-uni-dot"></span>
+                    GSEB Board
+                </div>
+                <h1 class="res-title" style="margin-top: 20px; font-size: clamp(2.5rem, 4vw, 4rem); text-align: left;">School Results</h1>
+                <p class="res-sub" style="margin-top: 10px; font-size: 1.1rem;">Class 10th (SSC) &nbsp;·&nbsp; Class 12th (HSC Science)</p>
+            </div>
+        </div>
+
+        <!-- Student Info Card -->
+        <div class="res-student-card animate-on-scroll slide-up delay-100">
+            <div class="res-info-item">
+                <span class="res-info-label">Student Name</span>
+                <span class="res-info-val">Amit Shah</span>
+            </div>
+            <div class="res-info-item">
+                <span class="res-info-label">Board</span>
+                <span class="res-info-val">GSEB</span>
+            </div>
+            <div class="res-info-item">
+                <span class="res-info-label">Percentile Rank</span>
+                <span class="res-info-val good">90.82</span>
+            </div>
+        </div>
+
+        <!-- Percentage Panel -->
+        <div class="school-score-panel animate-on-scroll slide-up delay-200">
+            <div class="res-score-card gold float-hover">
+                <span class="res-score-icon">🏆</span>
+                <span class="res-score-label">Class 10th (SSC)</span>
+                <span class="res-score-val" id="icse-count">0.00%</span>
+                <span class="res-score-cap">Overall Percentage (6 Subjects)</span>
+                <div class="res-score-bar">
+                    <div class="res-score-bar-fill" id="icse-bar"></div>
+                </div>
+            </div>
+            <div class="res-score-card coral float-hover">
+                <span class="res-score-icon">📊</span>
+                <span class="res-score-label">Class 12th (HSC)</span>
+                <span class="res-score-val" id="isc-count">0.00%</span>
+                <span class="res-score-cap">Overall Percentage</span>
+                <div class="res-score-bar">
+                    <div class="res-score-bar-fill" id="isc-bar"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Semester Tabs -->
+        <div class="res-tabs" id="res-tabs">
+            <button class="res-tab active" data-sem="class10">Class 10th (SSC)</button>
+            <button class="res-tab" data-sem="class12">Class 12th (HSC Science)</button>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════
+         CLASS 10th
+         ══════════════════════════════════════════════════════ -->
+        <div class="res-sem active" id="class10">
+            <div class="res-sem-label">
+                <span class="res-sem-pill">Class 10th (SSC)</span>
+                <div class="res-sem-line"></div>
+            </div>
+
+            <!-- Session Info -->
+            <div class="res-session-hdr">
+                <span class="res-session-name">Gujarat Secondary &amp; Higher Secondary Education Board</span>
+                <span class="res-session-backlog backlog-zero">Total Marks: 480 / 600</span>
+            </div>
+            <div class="res-tbl-wrap">
+                <table class="gtu-tbl">
+                    <thead>
+                        <tr>
+                            <th class="th-left">Subject Name</th>
+                            <th>Total Marks (Out of 100)</th>
+                            <th>Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="res-row">
+                            <td class="td-name">Gujarati (F. L.)</td>
+                            <td><span class="gb gb-marks">83</span></td>
+                            <td><span class="gb gb-PS">A2</span></td>
+                        </tr>
+                        <tr class="res-row">
+                            <td class="td-name">Social Science</td>
+                            <td><span class="gb gb-marks">78</span></td>
+                            <td><span class="gb gb-PS">B1</span></td>
+                        </tr>
+                        <tr class="res-row">
+                            <td class="td-name">Science</td>
+                            <td><span class="gb gb-marks">73</span></td>
+                            <td><span class="gb gb-PS">B1</span></td>
+                        </tr>
+                        <tr class="res-row">
+                            <td class="td-name">Mathematics</td>
+                            <td><span class="gb gb-marks">85</span></td>
+                            <td><span class="gb gb-PS">A2</span></td>
+                        </tr>
+                        <tr class="res-row">
+                            <td class="td-name">Hindi (S. L.)</td>
+                            <td><span class="gb gb-marks">79</span></td>
+                            <td><span class="gb gb-PS">B1</span></td>
+                        </tr>
+                        <tr class="res-row">
+                            <td class="td-name">English (S. L.)</td>
+                            <td><span class="gb gb-marks">82</span></td>
+                            <td><span class="gb gb-PS">A2</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div><!-- /class10 -->
+
+        <!-- ══════════════════════════════════════════════════════
+         CLASS 12th
+         ══════════════════════════════════════════════════════ -->
+        <div class="res-sem" id="class12">
+            <div class="res-sem-label">
+                <span class="res-sem-pill">Class 12th (HSC Science)</span>
+                <div class="res-sem-line"></div>
+            </div>
+
+            <!-- Session Info -->
+            <div class="res-session-hdr">
+                <span class="res-session-name">Gujarat Secondary &amp; Higher Secondary Education Board</span>
+                <span class="res-session-backlog backlog-zero">Total Marks: 361 / 600</span>
+            </div>
+            <div class="res-tbl-wrap">
+                <table class="gtu-tbl">
+                    <thead>
+                        <tr>
+                            <th class="th-left">Subject Name</th>
+                            <th>Total Marks</th>
+                            <th>Obtained Marks</th>
+                            <th>Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="res-row">
+                            <td class="td-name">English (S. L.)</td>
+                            <td><span class="gb gb-marks">100</span></td>
+                            <td><span class="gb gb-marks">63</span></td>
+                            <td><span class="gb gb-PS">B2</span></td>
+                        </tr>
+                        <tr class="res-row">
+                            <td class="td-name">Mathematics</td>
+                            <td><span class="gb gb-marks">100</span></td>
+                            <td><span class="gb gb-marks">53</span></td>
+                            <td><span class="gb gb-PS">C1</span></td>
+                        </tr>
+                        <tr class="res-row">
+                            <td class="td-name">Chemistry</td>
+                            <td><span class="gb gb-marks">100</span></td>
+                            <td><span class="gb gb-marks">50</span></td>
+                            <td><span class="gb gb-PS">C2</span></td>
+                        </tr>
+                        <tr class="res-row">
+                            <td class="td-name">Chemistry Pract.</td>
+                            <td><span class="gb gb-marks">050</span></td>
+                            <td><span class="gb gb-marks">43</span></td>
+                            <td><span class="gb gb-PS">A2</span></td>
+                        </tr>
+                        <tr class="res-row">
+                            <td class="td-name">Physics</td>
+                            <td><span class="gb gb-marks">100</span></td>
+                            <td><span class="gb gb-marks">53</span></td>
+                            <td><span class="gb gb-PS">C1</span></td>
+                        </tr>
+                        <tr class="res-row">
+                            <td class="td-name">Physics Pract.</td>
+                            <td><span class="gb gb-marks">050</span></td>
+                            <td><span class="gb gb-marks">20</span></td>
+                            <td><span class="gb gb-PS">D</span></td>
+                        </tr>
+                        <tr class="res-row">
+                            <td class="td-name">Sanskrit</td>
+                            <td><span class="gb gb-marks">100</span></td>
+                            <td><span class="gb gb-marks">79</span></td>
+                            <td><span class="gb gb-PS">B1</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div><!-- /class12 -->
+
+        <!-- Footer -->
+        <div class="res-footer" style="opacity: 0; animation: resFadeUp 0.7s ease forwards 0.8s;">
+            <span class="res-footer-note">© 2026 Amit Shah &nbsp;·&nbsp; School Results</span>
+            <a href="../index.html" class="res-footer-btn">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="15 18 9 12 15 6" />
+                </svg>
+                Back to Portfolio
+            </a>
+        </div>
+
+    </div><!-- /res-wrap -->
+
+    
+    <script src="../assets/js/results.js"></script>
+    <script>
+        // Page-specific counter config
+        window.addEventListener('load', function () {
+            setTimeout(function () {
+                animCount(document.getElementById('icse-count'), 80.00, 1400, '%');
+                animCount(document.getElementById('isc-count'),  60.16, 1400, '%');
+                setTimeout(function () {
+                    var ib = document.getElementById('icse-bar');
+                    var sb = document.getElementById('isc-bar');
+                    if (ib) ib.style.width = '80.00%';
+                    if (sb) sb.style.width = '60.16%';
+                }, 120);
+            }, 500);
+        });
+    </script>
+    <script src="../assets/js/script.js"></script>
+</body>
+
+</html>
