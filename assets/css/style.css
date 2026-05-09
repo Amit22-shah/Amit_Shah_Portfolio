@@ -173,7 +173,7 @@ body {
   height: 320px;
   max-width: 320px;
   margin: 0 auto;
-  background-image: url('../../assets/images/profile_bg.jpg');
+  background-image: none; /* profile_bg.jpg removed - using profile photo via img tag instead */
   background-size: cover;
   background-position: center;
   position: relative;
