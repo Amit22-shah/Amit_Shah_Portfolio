@@ -160,7 +160,7 @@ What others have to say about my work and collaboration skills → [**Read Feedb
 - **GitHub:** [Amit22-shah](https://github.com/Amit22-shah)
 - **Portfolio:** [Live Demo](./index.html)
 - **Email:** *[Add your contact info]*
-- **LinkedIn:** *[Add your LinkedIn profile]*
+- **LinkedIn:** *[www.linkedin.com/in/amit-shah22]*
 
 ---
 
